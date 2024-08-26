@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grey-container {
+  background-color: #150b3e;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.user-container {
+  margin: 10px;
+}
+.user-dp {
+  background-color: #c7d2fe;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  color: #7c3aed;
+}
+.user-name {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.balance-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-specify {
+  color: #585076;
+  font-size: 14px;
+}
+.balance-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.balance-value {
+  color: #ffffff;
+  font-size: 18px;
+}
+.balance-currency {
+  color: #585076;
+  font-size: 10px;
+  margin: 10px;
+}
+.action {
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
